@@ -26,8 +26,7 @@ public class DmvSimulator {
 
 			System.out.println(count);
 
-		}
-
+    }
 		int Usernum2 = (int) (Math.random() * 100);
 
 		if (Usernum2 == 1) {
@@ -37,7 +36,6 @@ public class DmvSimulator {
 		else {
 			System.out.println("You do not have the correct paperwork. Go to the back of the line. muahahahahah!");
 		}
-
 	}
 
 }
