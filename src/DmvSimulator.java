@@ -27,7 +27,7 @@ public class DmvSimulator {
 			System.out.println(count);
 
 		}
-		System.out.println("Sorry you do not have the correct paperwork. Go to the back of the line please!");
+		System.out.println("You do not have the correct paperwork. Go to the back of the line.");
 
 	}
 }
