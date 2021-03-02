@@ -5,15 +5,15 @@ public class DmvSimulator {
 
 		System.out.println("Hello, welcome to DMV simulator! Generating your number to wait in line.");
 
-		int Usernum = (int) (Math.random() * 100);
+		int Usernum = (int) (Math.random() * 200);
 		System.out.println("Your number is " + Usernum + ". Please wait until your number is called.");
 
 		System.out.println("The next number is....");
 
-		for (int i = Usernum + 1; i <= 101; i++) {
+		for (int i = Usernum + 1; i <= 201; i++) {
 			int count = i;
 
-			if (count == 101) {
+			if (count == 201) {
 				i = 0;
 				
 			}
